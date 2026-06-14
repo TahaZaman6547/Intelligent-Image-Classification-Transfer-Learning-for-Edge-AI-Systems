@@ -5,43 +5,39 @@ Deep Learning | Computer Vision | AI Optimization | Transfer Learning | Edge Int
 
 📌 Project Overview
 
-Developed a high-performance computer vision classification system using Convolutional Neural Networks (CNNs) and state-of-the-art Transfer Learning techniques for scalable image recognition tasks.
+This project develops a high-performance computer vision system using Convolutional Neural Networks (CNNs) and Transfer Learning for scalable image classification. It demonstrates applied AI engineering for intelligent systems, robotics perception, and edge-deployable machine learning applications.
 
-The project demonstrates applied AI engineering capability aligned with real-world intelligent systems, robotics perception, and edge-deployable machine learning models.
-
-🎯 Research & Engineering Objective
-
-To design and evaluate deep learning architectures capable of:
-
-Robust image classification under real-world variability
-Feature learning through hierarchical CNN representations
-Performance improvement using transfer learning (MobileNetV2)
-Optimization for deployment in resource-constrained environments (edge AI systems)
+🎯 Objectives
+Build robust image classification models for multi-class recognition
+Improve performance using CNN architectural enhancements
+Apply Transfer Learning (MobileNetV2) for efficient feature extraction
+Optimize models for resource-constrained (edge AI) environments
 📊 Dataset
-CIFAR-10 dataset (50,000 training images, 10 classes)
-Multi-class image classification problem
-Balanced benchmark dataset used in computer vision research
+CIFAR-10 Dataset
+50,000 training images
+10 object classes
+Standard benchmark dataset for computer vision research
 ⚙️ Methodology
-1. Baseline CNN Architecture
-Conv2D (32 filters, 3×3)
+1. Baseline CNN
+Conv2D (32 filters, 3×3) + ReLU
 MaxPooling2D
-Conv2D (64 filters, 3×3)
+Conv2D (64 filters, 3×3) + ReLU
 MaxPooling2D
-Flatten layer
-Dense (128 neurons, ReLU)
-Output layer (Softmax)
-2. Model Optimization Techniques
+Flatten
+Dense (128 neurons)
+Softmax output layer
+2. Model Optimization
 Batch Normalization
-Dropout regularization
-Data augmentation (rotation, flipping, zoom, brightness)
-Adaptive learning rate scheduling
-Deeper convolutional feature extraction blocks
-3. Transfer Learning (MobileNetV2)
-Pretrained on ImageNet dataset
-Frozen convolutional base for feature extraction
+Dropout Regularization
+Data Augmentation (flip, rotation, zoom, brightness)
+Learning Rate Optimization
+Deeper convolutional feature extraction
+3. Transfer Learning
+MobileNetV2 (ImageNet pretrained)
+Frozen base layers for feature extraction
 Fine-tuned classification head for CIFAR-10
-Optimized for low-computation inference scenarios
-📈 Performance Results
+Optimized for lightweight inference
+📈 Results
 Model	Accuracy
 Baseline CNN	~69.55%
 Optimized CNN	~82.23%
@@ -50,26 +46,27 @@ MobileNetV2 Transfer Learning	~87.86%
 Accuracy
 Precision / Recall / F1-score
 Confusion Matrix
-Per-class classification analysis
-Training vs validation convergence analysis
-🔍 Key Technical Contributions
-Improved CNN generalization through architectural optimization
-Demonstrated impact of regularization in reducing overfitting
-Applied transfer learning for high-performance classification
-Benchmarked multiple deep learning approaches for comparative analysis
-Optimized model suitability for edge AI and real-time inference systems
-🌍 Relevance to Real-World Systems
-
-This project aligns with applied domains including:
-
-Autonomous robotics perception systems
+Per-class performance analysis
+Training vs validation learning curves
+🔍 Key Contributions
+Improved CNN generalization through architecture optimization
+Reduced overfitting using regularization techniques
+Applied Transfer Learning for performance boost
+Comparative evaluation of multiple deep learning approaches
+Designed model suitable for edge AI deployment
+🌍 Real-World Applications
+Autonomous robotics vision systems
 Smart surveillance and object recognition
-Medical and industrial image classification systems
-Edge AI deployment in resource-constrained environments
+Medical and industrial image analysis
+Edge AI systems for real-time inference
 🧠 Technologies Used
 Python
 TensorFlow / Keras
-CNN (Deep Learning)
+Convolutional Neural Networks (CNN)
 MobileNetV2 (Transfer Learning)
-NumPy, Matplotlib
+NumPy
+Matplotlib
 Scikit-learn
+🚀 Project Significance
+
+This project demonstrates practical expertise in deep learning, computer vision, and AI optimization, with a focus on real-world deployable intelligent systems and resource-efficient model design.
