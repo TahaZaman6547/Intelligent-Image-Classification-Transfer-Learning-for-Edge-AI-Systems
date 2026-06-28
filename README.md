@@ -213,7 +213,3 @@ Runs on: **Raspberry Pi · Android · iOS · Arduino Nano 33 BLE Sense · STM32*
 `TensorFlow 2.x` · `Keras` · `MobileNetV2` · `scikit-learn` · `Flask` · `NumPy` · `Matplotlib` · `Seaborn` · `TFLite`
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
