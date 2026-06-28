@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Model weights (large — store externally or in releases)
+*.h5
+*.keras
+*.pt
+*.pth
+*.tflite
+saved_models/
+
+# Data folders
+data/cifar*/
+*.zip
+*.tar.gz
+
+# Generated plots (recreated on run)
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
